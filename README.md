@@ -8,7 +8,7 @@ Users can create or join a room via a shared link and draw together live — no 
 
 ## Live Demo
 
-Live URL: https://realtime-collaborative-whiteboard-zlvr.onrender.com/
+Live URL: 
 
 Join a room by adding a room query parameter:
 
