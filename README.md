@@ -8,7 +8,7 @@ Users can create or join a room via a shared link and draw together live — no 
 
 ## Live Demo
 
-Live URL: 
+Live URL: https://realtime-collaborative-whiteboard-mb37.onrender.com/
 
 Join a room by adding a room query parameter:
 
