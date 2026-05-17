@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>writeUP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <img class="logo" src="./assets//NavigationBar/logo.png" alt="writeUP">
+
+        <h2 class="title">writeUP</h2>
+
+        <div class="roomsgetid">
+            <div class="room-bar">
+            <input id="roomInput" placeholder="Enter room ID" />
+            <button id="joinRoomBtn">Join</button>
+        </div>
+        </div>
+    </nav>
+
+
+
+    <div class="app-layout">
+    <div class="draw-canvas">
+        <div class="toolbar">
+            <button class="tools tool-button" id="pencil" type="button" aria-label="Pencil">
+                <img src="./assets/toolbar/pencil-icon.png" alt="Pencil">
+            </button>
+            <button class="tools tool-button" id="eraser" type="button" aria-label="Eraser">
+                <img src="./assets/toolbar/eraser-icon.png" alt="Eraser">
+            </button>
+            <button class="tools tool-button text-tool" id="textTool" type="button" aria-label="Text tool">T</button>
+            <button class="tools color-swatch" id="black" type="button" aria-label="Black ink"></button>
+            <button class="tools color-swatch" id="blue" type="button" aria-label="Blue ink"></button>
+            <button class="tools color-swatch" id="red" type="button" aria-label="Red ink"></button>
+            <button class="tools color-swatch" id="green" type="button" aria-label="Green ink"></button>
+            <button class="tools color-swatch" id="pink" type="button" aria-label="Pink ink"></button>
+            <button class="tools action-button" id="clear" type="button">Clear</button>
+            <button class="tools action-button" id="restore" type="button">Restore</button>
+            <button class="tools action-button" id="undo" type="button">Undo</button>
+            <button class="tools action-button" id="redo" type="button">Redo</button>
+            <button class="tools action-button export-button" id="export" type="button">Export as PNG</button>
+        </div>
+        <div class="canvas-stage">
+            <canvas id="writecanvas"></canvas>
+            <textarea
+                id="textEditor"
+                class="text-editor"
+                hidden
+                rows="1"
+                spellcheck="false"
+                placeholder="Type here and press Enter"
+            ></textarea>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="https://cdn.socket.io/4.8.3/socket.io.min.js"></script>
+<script src="canvas.js"></script>
+</body>
+</html>
