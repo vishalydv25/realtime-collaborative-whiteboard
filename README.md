@@ -96,7 +96,7 @@ writeUp/
 
 ## Run Locally
 
-git clone https://github.com/InvincibleASH/realtime-collaborative-whiteboard.git
+git clone https://github.com/vishalydv25/realtime-collaborative-whiteboard.git
 cd realtime-collaborative-whiteboard
 npm install
 npm run dev
